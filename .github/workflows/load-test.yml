@@ -27,7 +27,7 @@ jobs:
       - name: Run local k6 test
         uses: grafana/k6-action@v0.3.0
         with:
-          filename: api-test.js
+          filename: manageApi-LoadTest.js
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
