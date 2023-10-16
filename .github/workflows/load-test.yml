@@ -24,10 +24,10 @@ jobs:
   
       - name: Run local k6 test
         uses: grafana/k6-action@v0.3.0
-        env:
-          AUTH_TOKEN: ${{ inputs.auth-token }}
         with:
-          filename: manageApi-LoadTest.js
+          filename: env-var/manageApi-LoadTest.js
+        env:
+          AUTH_TOKEN: ${{ inputs.auth-token }}  
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
