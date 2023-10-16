@@ -25,7 +25,7 @@ jobs:
       - name: Run local k6 test
         uses: grafana/k6-action@v0.3.0
         with:
-          filename: env-var/manageApi-LoadTest.js
+          filename: manageApi-LoadTest.js
         env:
           AUTH_TOKEN: ${{ inputs.auth-token }}  
   build:
