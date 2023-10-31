@@ -32,7 +32,7 @@ jobs:
       - name: Run local k6 test
         uses: grafana/k6-action@v0.3.0
         with:
-          filename: manageApi-LoadTest.js
+          filename: OnBoardApi-LoadTest.js
           flags: --out json=results.json
         env:
           UserName: ${{ inputs.email }}
