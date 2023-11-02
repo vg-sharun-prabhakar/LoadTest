@@ -10,6 +10,10 @@ on:
           description: 'Api Authorization token'
           type: string
           required: true
+        duration:
+          description: 'Duration of test (eg 1s,1m)'
+          type: string
+          required: true
         vus:
           description: 'No of virtual users(eg 100)'
           type: string
@@ -39,6 +43,7 @@ jobs:
           flags: --out json=results.json
         env:
           AUTH_TOKEN: ${{ inputs.auth-token }}
+          DURATION: ${{ inputs.duration }}
           VUS: ${{ inputs.vus }}
           HTTP_REQ_FAILED_THRESHOLD: ${{ inputs.http_req_failed }}
           HTTP_REQ_DURATION_THRESHOLD: ${{ inputs.http_req_duration }}
