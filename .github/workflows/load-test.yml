@@ -14,10 +14,12 @@ on:
           description: 'No of virtual users(eg 100)'
           type: string
           required: true
-        http_req_failed: 'threshold for http_req_failed (Eg: 'rate<0.15' [request failure rate must be less than 15%])'
+        http_req_failed: 
+          description: 'threshold for http_req_failed (Eg: "rate<0.15" [request failure rate must be less than 15%])'
           type: string
           required: true   
-        http_req_duration: 'threshold for http_req_duration (Eg: 'p(95)<5000' [95% of req must be less than 5s])'
+        http_req_duration:
+          description: 'threshold for http_req_duration (Eg: "p(95)<5000" [95% of req must be less than 5s])'
           type: string
           required: true
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -33,7 +35,7 @@ jobs:
       - name: Run local k6 test
         uses: grafana/k6-action@v0.3.0
         with:
-          filename: LocalizationApi-LoadTest.js
+          filename: localizationApi-LoadTest.js
           flags: --out json=results.json
         env:
           AUTH_TOKEN: ${{ inputs.auth-token }}
