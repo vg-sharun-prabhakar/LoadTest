@@ -3,13 +3,13 @@ import { check } from "k6";
 import { textSummary } from 'https://jslib.k6.io/k6-summary/0.0.1/index.js';
 
 const authToken = __ENV.AUTH_TOKEN;
-const vus = parseInt(__ENV.VUS);
+const vus = parseInt(__ENV.VUS) || 1;
 const initialDuration=__ENV.DURATION;
-
+ 
 export const options = {
   thresholds: {
-    http_req_failed: [__ENV.HTTP_REQ_FAILED_THRESHOLD], //eg: 'rate<0.15'[request failure rate must be 15 percentage]
-    http_req_duration: [__ENV.HTTP_REQ_DURATION_THRESHOLD], //eg: 'p(95)<5000' [95% of req must be less than 5s(5000ms)]
+    http_req_failed: [__ENV.HTTP_REQ_FAILED_THRESHOLD || 'rate<0.15'], //eg: 'rate<0.15'[request failure rate must be 15 percentage]
+    http_req_duration: [__ENV.HTTP_REQ_DURATION_THRESHOLD || 'p(95)<5000'], //eg: 'p(95)<5000' [95% of req must be less than 5s(5000ms)]
   },
   scenarios: {
     LanguageController: {
