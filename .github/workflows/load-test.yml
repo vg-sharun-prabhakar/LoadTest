@@ -42,7 +42,7 @@ jobs:
           filename: manageApi-LoadTest.js
           flags: --out json=results.json
         env:
-          AUTH_TOKEN: ${{ inputs.auth-token }}
+          AUTH_TOKEN: ${{ inputs.auth_token }}
           DURATION: ${{ inputs.duration }}
           VUS: ${{ inputs.vus }}
           HTTP_REQ_FAILED_THRESHOLD: ${{ inputs.http_req_failed }}
