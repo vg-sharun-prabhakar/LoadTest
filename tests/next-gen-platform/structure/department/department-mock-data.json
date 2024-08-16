@@ -1,0 +1,30 @@
+{
+    "postBody":
+    {
+        "departmentName": "DepartmentName",
+        "description": "test automation",
+        "siteId": 308,
+        "eSignReason": "reason"
+    },
+
+    "putBody":
+    {
+        "siteText":"DefaultSite",
+        "siteId":308,
+        "departmentName":"",
+        "departmentId":0,
+        "departmentNumber":"D0",
+        "description":"test automation",
+        "comments":"www",
+        "departmentStatusText":"ACTIVE",
+        "esignReason":""
+    },
+
+    "changeStatusBody":
+    {
+        "id":0,
+        "comments":"www",
+        "esignReason":""
+    }
+
+}

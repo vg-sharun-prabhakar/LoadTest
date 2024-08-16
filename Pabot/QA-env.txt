@@ -1,0 +1,6 @@
+--variable BROWSER_NAME:Chrome
+--variable BASE_URL:https://www.google.com/
+--variable USER:harvey
+--variable USER_PASSWORD:welcome@1
+--variable APPROVER:richard
+--variable APPROVER_PASSWORD:welcome@2

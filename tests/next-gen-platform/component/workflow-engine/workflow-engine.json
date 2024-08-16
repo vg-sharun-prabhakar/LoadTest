@@ -1,0 +1,167 @@
+{
+    "URL": "https://dev-vgnext-apimgmt.azure-api.net/next/test/components/workflow/api/v1/WorkflowEngine",
+    "CreateBody": {
+        "component": "FORM",
+        "instanceId": 446,
+        "workflowId": 127,
+        "workflowJson": {
+            "nodes": [
+                {
+                    "direction": "serial",
+                    "frequency": null,
+                    "reviewOrApprovalPeriod": null,
+                    "functionalRole": null,
+                    "id": "start",
+                    "label": "START",
+                    "type": "start",
+                    "groupAndUsers": null,
+                    "selectedUsers": [],
+                    "x": 0,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                },
+                {
+                    "direction": "serial",
+                    "frequency": 1,
+                    "reviewOrApprovalPeriod": 3,
+                    "functionalRole": {
+                        "id": 42,
+                        "label": "FN001"
+                    },
+                    "id": "reviewer",
+                    "label": "REVIEWER NAME",
+                    "type": "reviewer",
+                    "groupAndUsers": {
+                        "id": "127",
+                        "label": "SR-Group 1707",
+                        "children": [
+                            {
+                                "id": "127-46",
+                                "groupId": 0,
+                                "userId": 46,
+                                "uniqueUserId": "sathishd",
+                                "label": "Sathish D"
+                            },
+                            {
+                                "id": "127-293",
+                                "groupId": 0,
+                                "userId": 293,
+                                "uniqueUserId": "sr",
+                                "label": "Soundar Rajan"
+                            }
+                        ]
+                    },
+                    "selectedUsers": [
+                        "127",
+                        "127-46",
+                        "127-293"
+                    ],
+                    "x": 150,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                },
+                {
+                    "direction": "serial",
+                    "frequency": null,
+                    "reviewOrApprovalPeriod": null,
+                    "functionalRole": null,
+                    "id": "end",
+                    "label": "END",
+                    "type": "end",
+                    "groupAndUsers": null,
+                    "selectedUsers": [],
+                    "x": 850,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                },
+                {
+                    "direction": "serial",
+                    "frequency": 1,
+                    "reviewOrApprovalPeriod": 3,
+                    "functionalRole": {
+                        "id": 42,
+                        "label": "FN001"
+                    },
+                    "id": "approver",
+                    "label": "APPROVER NAME",
+                    "type": "approver",
+                    "groupAndUsers": {
+                        "id": "127",
+                        "label": "SR-Group 1707",
+                        "children": [
+                            {
+                                "id": "127-46",
+                                "groupId": 127,
+                                "userId": 46,
+                                "uniqueUserId": "sathishd",
+                                "label": "Sathish D",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/41f02aac-b8f9-4fe8-b70b-964ea3d5f539.jpeg"
+                            },
+                            {
+                                "id": "127-293",
+                                "groupId": 127,
+                                "userId": 293,
+                                "uniqueUserId": "sr",
+                                "label": "Soundar Rajan",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/10a1dc0d-735b-4369-9efd-aab172c58593.jpg"
+                            }
+                        ]
+                    },
+                    "selectedUsers": [
+                        "127",
+                        "127-46",
+                        "127-293"
+                    ],
+                    "x": 500,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                }
+            ],
+            "arrows": [
+                {
+                    "to": "end",
+                    "from": "approver"
+                },
+                {
+                    "to": "reviewer",
+                    "from": "start"
+                },
+                {
+                    "to": "approver",
+                    "from": "reviewer"
+                }
+            ]
+        },
+        "isReviewRequired": true,
+        "routeTo": 0,
+        "emailMetadata": {
+            "ComponentType": "FORM",
+            "ComponentName": "Robot Form",
+            "ComponentUniqueId": "DS1_STD_0253.1"
+        },
+        "moduleKey": "module_form",
+        "comments": "",
+        "esignReason": "",
+        "WfConfigType": 2
+    },
+    "routeBody": {
+        "nodeId": 2487,
+        "instanceId": 446,
+        "component": "FORM",
+        "userType": 2,
+        "statusUpdateUrl": "components/form/api/v1/Form/createWorkflowUsers",
+        "moduleKey": "module_form",
+        "successMsg": "DS1_STD_0253.1-Robot Form",
+        "emailMetadata": {
+            "ComponentType": "FORM",
+            "ComponentName": "Robot Form",
+            "ComponentUniqueId": "DS1_STD_0253.1"
+        },
+        "TaskTransferTo": 9,
+        "AcceptTransfer": false
+    }
+}

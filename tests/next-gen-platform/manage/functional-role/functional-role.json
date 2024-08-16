@@ -1,0 +1,16 @@
+{
+    "CreateFunctionalRole": {
+        "siteId": 308,
+        "functionalPrefix": "${functionalPrefix}",
+        "functionalName": "${functionalName}",
+        "description": "robotAuto-Description"        
+    },
+    "UpdateFunctionalRole": {
+        "functionalRoleId": "${functionalRoleId}",
+        "functionalPrefix": "${functionalPrefix}",
+        "functionalName": "${functionalName}",
+        "description": "robotAuto-DescriptionUpdated" ,
+        "reasonForEditing": "robotAuto-ReasonForEditing"       
+    },
+    "StatusChangePayload": { "id": "${functionalRoleId}", "comments": "test Automation" }
+}

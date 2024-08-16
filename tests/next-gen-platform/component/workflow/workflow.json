@@ -1,0 +1,189 @@
+{
+    "URL": "https://dev-vgnext-apimgmt.azure-api.net/next/test/components/workflow/api/v1/Workflow",
+    "PostBody": {
+        "Id": 225,
+        "workflowId": 225,
+        "uniqueId": "DS1_WF_0128.1",
+        "workflowName": "RobotWorkFlow4",
+        "description": "RobotWorkFlow4",
+        "isReviewRequired": true,
+        "applicableModules": {
+            "applicableModules": [
+                {
+                    "id": 9,
+                    "name": "System Manager",
+                    "isChecked": true
+                },
+                {
+                    "id": 11,
+                    "name": "Gateway",
+                    "isChecked": true
+                },
+                {
+                    "id": 12,
+                    "name": "CPV",
+                    "isChecked": true
+                }
+            ]
+        },
+        "workflowJson": {
+            "nodes": [
+                {
+                    "id": "start",
+                    "label": "START",
+                    "type": "start",
+                    "x": 0,
+                    "y": 0,
+                    "direction": "serial",
+                    "groupAndUsers": {},
+                    "functionalRole": null,
+                    "reviewOrApprovalPeriod": null,
+                    "frequency": null,
+                    "selectedUsers": []
+                },
+                {
+                    "id": "approver",
+                    "label": "APPROVER NAME",
+                    "type": "approver",
+                    "x": 500,
+                    "y": 0,
+                    "direction": "serial",
+                    "groupAndUsers": {},
+                    "functionalRole": {
+                        "id": 42,
+                        "label": "FN001"
+                    },
+                    "reviewOrApprovalPeriod": 3,
+                    "frequency": 1,
+                    "selectedUsers": []
+                },
+                {
+                    "id": "end",
+                    "label": "END",
+                    "type": "end",
+                    "x": 850,
+                    "y": 0,
+                    "direction": "serial",
+                    "groupAndUsers": {},
+                    "functionalRole": null,
+                    "reviewOrApprovalPeriod": null,
+                    "frequency": null,
+                    "selectedUsers": []
+                },
+                {
+                    "id": "reviewer",
+                    "label": "REVIEWER NAME",
+                    "type": "reviewer",
+                    "x": 150,
+                    "y": 0,
+                    "direction": "serial",
+                    "groupAndUsers": {
+                        "id": "127",
+                        "label": "SR-Group 1707",
+                        "groupNumber": "G0095",
+                        "userCount": 2,
+                        "children": [
+                            {
+                                "id": "127-46",
+                                "groupId": 127,
+                                "userId": 46,
+                                "uniqueUserId": "sathishd",
+                                "label": "Sathish D",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/41f02aac-b8f9-4fe8-b70b-964ea3d5f539.jpeg"
+                            },
+                            {
+                                "id": "127-293",
+                                "groupId": 127,
+                                "userId": 293,
+                                "uniqueUserId": "sr",
+                                "label": "Soundar Rajan",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/10a1dc0d-735b-4369-9efd-aab172c58593.jpg"
+                            }
+                        ]
+                    },
+                    "functionalRole": {
+                        "id": 42,
+                        "label": "FN001"
+                    },
+                    "reviewOrApprovalPeriod": 3,
+                    "frequency": 1,
+                    "selectedUsers": [
+                        "127",
+                        "127-46",
+                        "127-293"
+                    ]
+                }
+            ],
+            "arrows": [
+                {
+                    "from": "approver",
+                    "to": "end"
+                },
+                {
+                    "from": "start",
+                    "to": "reviewer"
+                },
+                {
+                    "from": "reviewer",
+                    "to": "approver"
+                }
+            ],
+            "groupConfig": {
+                "approverGroupConfig": [
+                    {
+                        "id": 127,
+                        "label": "SR-Group 1707",
+                        "groupNumber": "G0095",
+                        "userCount": 2,
+                        "children": [
+                            {
+                                "id": "127-46",
+                                "groupId": 127,
+                                "userId": 46,
+                                "uniqueUserId": "sathishd",
+                                "label": "Sathish D",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/41f02aac-b8f9-4fe8-b70b-964ea3d5f539.jpeg"
+                            },
+                            {
+                                "id": "127-293",
+                                "groupId": 127,
+                                "userId": 293,
+                                "uniqueUserId": "sr",
+                                "label": "Soundar Rajan",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/10a1dc0d-735b-4369-9efd-aab172c58593.jpg"
+                            }
+                        ]
+                    }
+                ],
+                "reviewerGroupConfig": [
+                    {
+                        "id": 127,
+                        "label": "SR-Group 1707",
+                        "groupNumber": "G0095",
+                        "userCount": 2,
+                        "children": [
+                            {
+                                "id": "127-46",
+                                "groupId": 127,
+                                "userId": 46,
+                                "uniqueUserId": "sathishd",
+                                "label": "Sathish D",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/41f02aac-b8f9-4fe8-b70b-964ea3d5f539.jpeg"
+                            },
+                            {
+                                "id": "127-293",
+                                "groupId": 127,
+                                "userId": 293,
+                                "uniqueUserId": "sr",
+                                "label": "Soundar Rajan",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/10a1dc0d-735b-4369-9efd-aab172c58593.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "comments": "create",
+        "actionType": "create"
+    }
+}

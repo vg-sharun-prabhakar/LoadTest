@@ -1,0 +1,1199 @@
+{
+    "URL": "https://dev-vgnext-apimgmt.azure-api.net/next/test/manage/api/v1/Role",
+    "PostBody": {
+        "siteId": 308,
+        "roleName": "robot75",
+        "description": "eer",
+        "roleTypeId": 4,
+        "permissions":[
+            {
+                "permissionId": 2,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin"
+            },
+            {
+                "permissionId": 4,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.roles"
+            },
+            {
+                "permissionId": 5,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.users"
+            },
+            {
+                "permissionId": 6,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.users.departments"
+            },
+            {
+                "permissionId": 7,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.users.jobtitles"
+            },
+            {
+                "permissionId": 50,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.users.users"
+            },
+            {
+                "permissionId": 53,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.org_structure"
+            },
+            {
+                "permissionId": 54,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.requestfromusers"
+            },
+            {
+                "permissionId": 55,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.release_users"
+            },
+            {
+                "permissionId": 56,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.transfer_tasks"
+            },
+            {
+                "permissionId": 9,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "system"
+            },
+            {
+                "permissionId": 8,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "system.groups"
+            },
+            {
+                "permissionId": 10,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "system.entities"
+            },
+            {
+                "permissionId": 47,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "system.entitygroups"
+            },
+            {
+                "permissionId": 49,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "system.reasons"
+            },
+            {
+                "permissionId": 51,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "system.functionalrole"
+            },
+            {
+                "permissionId": 52,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "system.taxonomy"
+            },
+            {
+                "permissionId": 12,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "configuration"
+            },
+            {
+                "permissionId": 13,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "configuration.general"
+            },
+            {
+                "permissionId": 14,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect"
+            },
+            {
+                "permissionId": 15,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.entity"
+            },
+            {
+                "permissionId": 17,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.entity.configure"
+            },
+            {
+                "permissionId": 18,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.entity.publish"
+            },
+            {
+                "permissionId": 19,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.entity.result"
+            },
+            {
+                "permissionId": 20,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.monitoring"
+            },
+            {
+                "permissionId": 21,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.monitoring.datahub"
+            },
+            {
+                "permissionId": 22,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.system"
+            },
+            {
+                "permissionId": 23,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.system.datahub"
+            },
+            {
+                "permissionId": 24,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.system.node"
+            },
+            {
+                "permissionId": 25,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.system.connectors"
+            },
+            {
+                "permissionId": 27,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.system.parameters"
+            },
+            {
+                "permissionId": 28,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.system.manage_rule"
+            },
+            {
+                "permissionId": 29,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.dashboard"
+            },
+            {
+                "permissionId": 30,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.dashboard.dashboard"
+            },
+            {
+                "permissionId": 33,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component"
+            },
+            {
+                "permissionId": 34,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.form"
+            },
+            {
+                "permissionId": 46,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.form.customforms"
+            },
+            {
+                "permissionId": 35,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.uom"
+            },
+            {
+                "permissionId": 36,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.workflow"
+            },
+            {
+                "permissionId": 37,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.calendar"
+            },
+            {
+                "permissionId": 38,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.processdesigner"
+            },
+            {
+                "permissionId": 39,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.escalationmatrix"
+            },
+            {
+                "permissionId": 40,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.formula"
+            },
+            {
+                "permissionId": 41,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.decisiontree"
+            },
+            {
+                "permissionId": 42,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.deliveryschedule"
+            },
+            {
+                "permissionId": 43,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.parameter"
+            },
+            {
+                "permissionId": 48,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "reports"
+            },
+            {
+                "permissionId": 44,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "reports.audit_trail"
+            },
+            {
+                "permissionId": 45,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "reports.audit_trail.role_profile"
+            },
+            {
+                "permissionId": 57,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "reports.audit_trail.falsification_attempts"
+            }
+        ]
+    },
+    "PutBody": {
+        "id": 252,
+        "site": {
+            "siteName": "DefaultSite",
+            "siteId": 308
+        },
+        "accessRole": "Standard",
+        "roleId": 250,
+        "roleName": "robot75",
+        "description": "eerdd",
+        "comments": "decdd",
+        "roleStatusText": "ACTIVE",
+        "permissions": [
+            {
+                "permissionId": 2,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin"
+            },
+            {
+                "permissionId": 4,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.roles"
+            },
+            {
+                "permissionId": 5,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.users"
+            },
+            {
+                "permissionId": 6,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.users.departments"
+            },
+            {
+                "permissionId": 7,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.users.jobtitles"
+            },
+            {
+                "permissionId": 50,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.users.users"
+            },
+            {
+                "permissionId": 53,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.org_structure"
+            },
+            {
+                "permissionId": 54,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.requestfromusers"
+            },
+            {
+                "permissionId": 55,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.release_users"
+            },
+            {
+                "permissionId": 56,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "admin.transfer_tasks"
+            },
+            {
+                "permissionId": 9,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "system"
+            },
+            {
+                "permissionId": 8,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "system.groups"
+            },
+            {
+                "permissionId": 10,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "system.entities"
+            },
+            {
+                "permissionId": 47,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "system.entitygroups"
+            },
+            {
+                "permissionId": 49,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "system.reasons"
+            },
+            {
+                "permissionId": 51,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "system.functionalrole"
+            },
+            {
+                "permissionId": 52,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "system.taxonomy"
+            },
+            {
+                "permissionId": 12,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "configuration"
+            },
+            {
+                "permissionId": 13,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "configuration.general"
+            },
+            {
+                "permissionId": 14,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect"
+            },
+            {
+                "permissionId": 15,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.entity"
+            },
+            {
+                "permissionId": 17,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.entity.configure"
+            },
+            {
+                "permissionId": 18,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.entity.publish"
+            },
+            {
+                "permissionId": 19,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.entity.result"
+            },
+            {
+                "permissionId": 20,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.monitoring"
+            },
+            {
+                "permissionId": 21,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.monitoring.datahub"
+            },
+            {
+                "permissionId": 22,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.system"
+            },
+            {
+                "permissionId": 23,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.system.datahub"
+            },
+            {
+                "permissionId": 24,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.system.node"
+            },
+            {
+                "permissionId": 25,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.system.connectors"
+            },
+            {
+                "permissionId": 27,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.system.parameters"
+            },
+            {
+                "permissionId": 28,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.system.manage_rule"
+            },
+            {
+                "permissionId": 29,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.dashboard"
+            },
+            {
+                "permissionId": 30,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "vconnect.dashboard.dashboard"
+            },
+            {
+                "permissionId": 33,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component"
+            },
+            {
+                "permissionId": 34,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.form"
+            },
+            {
+                "permissionId": 46,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.form.customforms"
+            },
+            {
+                "permissionId": 35,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.uom"
+            },
+            {
+                "permissionId": 36,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.workflow"
+            },
+            {
+                "permissionId": 37,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.calendar"
+            },
+            {
+                "permissionId": 38,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.processdesigner"
+            },
+            {
+                "permissionId": 39,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.escalationmatrix"
+            },
+            {
+                "permissionId": 40,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.formula"
+            },
+            {
+                "permissionId": 41,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.decisiontree"
+            },
+            {
+                "permissionId": 42,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.deliveryschedule"
+            },
+            {
+                "permissionId": 43,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "component.parameter"
+            },
+            {
+                "permissionId": 48,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "reports"
+            },
+            {
+                "permissionId": 44,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "reports.audit_trail"
+            },
+            {
+                "permissionId": 45,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "reports.audit_trail.role_profile"
+            },
+            {
+                "permissionId": 57,
+                "isNoAccess": true,
+                "isReadOnly": false,
+                "isFullAccess": false,
+                "permissionPath": "reports.audit_trail.falsification_attempts"
+            }
+        ],
+        "overridePermission": null,
+        "roleTypeId": 4,
+        "roleNumber": "R0219",
+        "tenantId": 1,
+        "tenantName": "valgenesis",
+        "siteId": 308,
+        "siteText": "DefaultSite",
+        "businessStructureId": null,
+        "businessStructureText": null,
+        "roleStatus": 0,
+        "roleResourceKey": "status_active",
+        "roleTypeText": "Standard",
+        "modifiedDate": null,
+        "permissionData": {
+            "Permissions": [
+                {
+                    "permissionId": 2,
+                    "permissionPath": "admin",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 4,
+                    "permissionPath": "admin.roles",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 5,
+                    "permissionPath": "admin.users",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 6,
+                    "permissionPath": "admin.users.departments",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 7,
+                    "permissionPath": "admin.users.jobtitles",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 8,
+                    "permissionPath": "system.groups",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 9,
+                    "permissionPath": "system",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 10,
+                    "permissionPath": "system.entities",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 12,
+                    "permissionPath": "configuration",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 13,
+                    "permissionPath": "configuration.general",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 14,
+                    "permissionPath": "vconnect",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 15,
+                    "permissionPath": "vconnect.entity",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 17,
+                    "permissionPath": "vconnect.entity.configure",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 18,
+                    "permissionPath": "vconnect.entity.publish",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 19,
+                    "permissionPath": "vconnect.entity.result",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 20,
+                    "permissionPath": "vconnect.monitoring",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 21,
+                    "permissionPath": "vconnect.monitoring.datahub",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 22,
+                    "permissionPath": "vconnect.system",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 23,
+                    "permissionPath": "vconnect.system.datahub",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 24,
+                    "permissionPath": "vconnect.system.node",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 25,
+                    "permissionPath": "vconnect.system.connectors",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 27,
+                    "permissionPath": "vconnect.system.parameters",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 28,
+                    "permissionPath": "vconnect.system.manage_rule",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 29,
+                    "permissionPath": "vconnect.dashboard",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 30,
+                    "permissionPath": "vconnect.dashboard.dashboard",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 33,
+                    "permissionPath": "component",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 34,
+                    "permissionPath": "component.form",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 35,
+                    "permissionPath": "component.uom",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 36,
+                    "permissionPath": "component.workflow",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 37,
+                    "permissionPath": "component.calendar",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 38,
+                    "permissionPath": "component.processdesigner",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 39,
+                    "permissionPath": "component.escalationmatrix",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 40,
+                    "permissionPath": "component.formula",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 41,
+                    "permissionPath": "component.decisiontree",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 42,
+                    "permissionPath": "component.deliveryschedule",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 43,
+                    "permissionPath": "component.parameter",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 44,
+                    "permissionPath": "reports.audit_trail",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 45,
+                    "permissionPath": "reports.audit_trail.role_profile",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 46,
+                    "permissionPath": "component.form.customforms",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 47,
+                    "permissionPath": "system.entitygroups",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 48,
+                    "permissionPath": "reports",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 49,
+                    "permissionPath": "system.reasons",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 50,
+                    "permissionPath": "admin.users.users",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 51,
+                    "permissionPath": "system.functionalrole",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 52,
+                    "permissionPath": "system.taxonomy",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 53,
+                    "permissionPath": "admin.org_structure",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 54,
+                    "permissionPath": "admin.requestfromusers",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 55,
+                    "permissionPath": "admin.release_users",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 56,
+                    "permissionPath": "admin.transfer_tasks",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                },
+                {
+                    "permissionId": 57,
+                    "permissionPath": "reports.audit_trail.falsification_attempts",
+                    "isNoAccess": true,
+                    "isReadOnly": false,
+                    "isFullAccess": false,
+                    "status": true,
+                    "tenantId": 0
+                }
+            ]
+        },
+        "esignReason": "General Edit"
+    },
+    "StatusChangePayload": {
+        "Id": null,
+        "comments": "edwec",
+        "esignReason": "Test Automation"
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "post_tagids": {
+        "data": [
+            {
+                "data_source_name": "OPC",
+                "tag_id": "ns=2;i=vj;",
+                "tag_name": "Temperaturevj",
+                "entity_config_code": "Datalke-01"
+            },
+            {
+                "data_source_name": "OPC",
+                "tag_id": "ns=2;i=1006;",
+                "tag_name": "Temperature",
+                "entity_config_code": "Datalke-02"
+            },
+            {
+                "data_source_name": "OPC",
+                "tag_id": "ns=2;i=1006;",
+                "tag_name": "Temperature",
+                "entity_config_code": "Datalke-03"
+            },
+            {
+                "data_source_name": "OPC",
+                "tag_id": "ns=2;i=1006;",
+                "tag_name": "Temperature",
+                "entity_config_code": "Datalke-04"
+            },
+            {
+                "data_source_name": "OPC",
+                "tag_id": "ns=2;i=1006;",
+                "tag_name": "Temperature",
+                "entity_config_code": "Datalke-05"
+            },
+            {
+                "data_source_name": "OPC",
+                "tag_id": "ns=2;i=1006;",
+                "tag_name": "Temperature",
+                "entity_config_code": "Datalke-06"
+            },
+            {
+                "data_source_name": "OPC",
+                "tag_id": "ns=2;i=1006;",
+                "tag_name": "Temperature",
+                "entity_config_code": "Datalke-07"
+            },
+            {
+                "data_source_name": "OPC",
+                "tag_id": "ns=2;i=1006;",
+                "tag_name": "Temperature",
+                "entity_config_code": "Datalke-08"
+            },
+            {
+                "data_source_name": "OPC",
+                "tag_id": "ns=2;i=1006;",
+                "tag_name": "Temperature",
+                "entity_config_code": "Datalke-09"
+            },
+            {
+                "data_source_name": "OPC",
+                "tag_id": "ns=2;i=1006;",
+                "tag_name": "Temperature",
+                "entity_config_code": "Datalke-10"
+            }
+        ],
+        "tenant_id": 1,
+        "audit": {
+            "completedBy": "Robot Testing",
+            "completedByUserId": "robot-testing",
+            "timeZone": "India Standard Time",
+            "timeZonePrefix": "IST",
+            "created_date_converted": "2024-06-10T14:00:05.8460000Z",
+            "modified_date_converted": "2024-06-10T14:00:05.8470000Z",
+            "activity": "Created"
+        }
+    }
+}

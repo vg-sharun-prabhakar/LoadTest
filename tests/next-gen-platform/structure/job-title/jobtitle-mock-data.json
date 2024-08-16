@@ -1,0 +1,26 @@
+{
+    "postBody": {
+        "jobTitleName":"JobTitle_Name","description":"test automation","siteId":308,"eSignReason":""
+
+    },
+    "putBody": {
+        "jobTitleId":0,
+        "jobTitleName":"RobotJt",
+        "jobTitleNumber":"J00",
+        "siteId":308,
+        "siteText":"DefaultSite",
+        "businessStructureId":null,
+        "businessStructureText":"",
+        "description":"test automation",
+        "comments":"tet",
+        "jobTitleStatus":0,
+        "jobTitleResourceKey":"status_active",
+        "jobTitleStatusText":"ACTIVE",
+        "tenantId":0,
+        "tenantName":null,
+        "esignReason":""
+    },
+    "changeStatusBody" :
+        {"id":0,"comments":"www","esignReason":""}
+
+}

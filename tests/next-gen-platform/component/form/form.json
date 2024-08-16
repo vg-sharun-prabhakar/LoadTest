@@ -1,0 +1,1156 @@
+{
+    "formJson": {
+        "formId": 0,
+        "uniqueId": "",
+        "formName": "robotFrom",
+        "parentType": {
+            "parentTypeId": 2,
+            "parentTypeText": "Standard Form",
+            "parentTypePrefix": "STD"
+        },
+        "description": "test description",
+        "isofflineRequired": 1,
+        "inheritFormType": 0,
+        "LinkedFormId": null,
+        "isPrivate": false,
+        "workflowData": null,
+        "isRevised": false,
+        "applicableTo": {
+            "applicableTo": [
+                {
+                    "id": 13,
+                    "label": "Internal Change Type"
+                },
+                {
+                    "id": 14,
+                    "label": "External Change Type"
+                },
+                {
+                    "id": 15,
+                    "label": "Standard Entity"
+                },
+                {
+                    "id": 16,
+                    "label": "Document Metadata"
+                },
+                {
+                    "id": 17,
+                    "label": "Risk Assessment Form"
+                },
+                {
+                    "id": 18,
+                    "label": "Execution Summary Report"
+                },
+                {
+                    "id": 19,
+                    "label": "Decision Tree"
+                },
+                {
+                    "id": 20,
+                    "label": "GxP Assessment Sections"
+                },
+                {
+                    "id": 21,
+                    "label": "Risk Assessment Sections"
+                },
+                {
+                    "id": 22,
+                    "label": "Validation Standard Assessment Sections"
+                },
+                {
+                    "id": 23,
+                    "label": "Schedule"
+                },
+                {
+                    "id": 24,
+                    "label": "Sub-category"
+                }
+            ]
+        },
+        "inheritForm": [],
+        "workflow": {
+            "workflowId": 108,
+            "workflowText": "RobotWorkFlow2",
+            "workflowReviewRequired": true,
+            "workflowNodes": [],
+            "workflowArrows": [],
+            "workflowConfig": {
+                "reviewerGroupConfig": [],
+                "approverGroupConfig": []
+            }
+        },
+        "jsonForm": {
+            "fields": [],
+            "conditions": []
+        },
+        "parentTypeId": 2,
+        "IsPrivate": false,
+        "workflowId": 108,
+        "jsonWorkflow": {
+            "nodes": [],
+            "arrows": [],
+            "groupConfig": {
+                "approverGroupConfig": [],
+                "reviewerGroupConfig": []
+            }
+        },
+        "isReviewRequired": true,
+        "routeTo": 0,
+        "entityTypeId": "FORM"
+    },
+    "createForm": {
+        "formId": 0,
+        "uniqueId": "",
+        "formName": "",
+        "parentType": {
+            "parentTypeId": 2,
+            "parentTypeText": "Standard Form",
+            "parentTypePrefix": "STD"
+        },
+        "description": "test description",
+        "isofflineRequired": 1,
+        "inheritFormType": 0,
+        "LinkedFormId": null,
+        "isPrivate": false,
+        "workflowData": null,
+        "isRevised": false,
+        "applicableTo": {
+            "applicableTo": [
+                {
+                    "id": 13,
+                    "label": "Internal Change Type"
+                },
+                {
+                    "id": 14,
+                    "label": "External Change Type"
+                },
+                {
+                    "id": 15,
+                    "label": "Standard Entity"
+                },
+                {
+                    "id": 16,
+                    "label": "Document Metadata"
+                },
+                {
+                    "id": 17,
+                    "label": "Risk Assessment Form"
+                },
+                {
+                    "id": 18,
+                    "label": "Execution Summary Report"
+                },
+                {
+                    "id": 19,
+                    "label": "Decision Tree"
+                },
+                {
+                    "id": 20,
+                    "label": "GxP Assessment Sections"
+                },
+                {
+                    "id": 21,
+                    "label": "Risk Assessment Sections"
+                },
+                {
+                    "id": 22,
+                    "label": "Validation Standard Assessment Sections"
+                },
+                {
+                    "id": 23,
+                    "label": "Schedule"
+                },
+                {
+                    "id": 24,
+                    "label": "Sub-category"
+                }
+            ]
+        },
+        "inheritForm": [],
+        "workflow": {
+            "workflowId": 108,
+            "workflowText": "RobotWorkFlow2",
+            "workflowReviewRequired": true,
+            "workflowNodes": [],
+            "workflowArrows": [],
+            "workflowConfig": {
+                "reviewerGroupConfig": [],
+                "approverGroupConfig": []
+            }
+        },
+        "jsonForm": {
+            "fields": [],
+            "conditions": []
+        },
+        "parentTypeId": 2,
+        "IsPrivate": false,
+        "workflowId": 108,
+        "jsonWorkflow": {
+            "nodes": [],
+            "arrows": [],
+            "groupConfig": {
+                "approverGroupConfig": [],
+                "reviewerGroupConfig": []
+            }
+        },
+        "isReviewRequired": true,
+        "routeTo": 0,
+        "entityTypeId": "FORM"
+    },
+    "updateForm": {
+        "formId": "",
+        "uniqueId": "",
+        "formName": "",
+        "parentType": {
+            "parentTypeId": 2,
+            "parentTypeText": "Standard Form",
+            "parentTypePrefix": "STD"
+        },
+        "description": "test description",
+        "isofflineRequired": 1,
+        "inheritFormType": 0,
+        "LinkedFormId": null,
+        "isPrivate": false,
+        "workflowData": null,
+        "isRevised": false,
+        "applicableTo": {
+            "applicableTo": [
+                {
+                    "id": 13,
+                    "label": "Internal Change Type"
+                },
+                {
+                    "id": 14,
+                    "label": "External Change Type"
+                },
+                {
+                    "id": 15,
+                    "label": "Standard Entity"
+                },
+                {
+                    "id": 16,
+                    "label": "Document Metadata"
+                },
+                {
+                    "id": 17,
+                    "label": "Risk Assessment Form"
+                },
+                {
+                    "id": 18,
+                    "label": "Execution Summary Report"
+                },
+                {
+                    "id": 19,
+                    "label": "Decision Tree"
+                },
+                {
+                    "id": 20,
+                    "label": "GxP Assessment Sections"
+                },
+                {
+                    "id": 21,
+                    "label": "Risk Assessment Sections"
+                },
+                {
+                    "id": 22,
+                    "label": "Validation Standard Assessment Sections"
+                },
+                {
+                    "id": 23,
+                    "label": "Schedule"
+                },
+                {
+                    "id": 24,
+                    "label": "Sub-category"
+                }
+            ]
+        },
+        "inheritForm": [],
+        "workflow": {
+            "workflowId": 108,
+            "workflowText": "RobotWorkFlow2",
+            "workflowReviewRequired": true,
+            "workflowNodes": [],
+            "workflowArrows": [],
+            "workflowConfig": {
+                "reviewerGroupConfig": [],
+                "approverGroupConfig": []
+            }
+        },
+        "jsonForm": {
+            "fields": [],
+            "conditions": []
+        },
+        "parentTypeId": 2,
+        "IsPrivate": false,
+        "workflowId": 108,
+        "jsonWorkflow": {
+            "nodes": [],
+            "arrows": [],
+            "groupConfig": {
+                "approverGroupConfig": [],
+                "reviewerGroupConfig": []
+            }
+        },
+        "isReviewRequired": true,
+        "routeTo": 0,
+        "entityTypeId": "FORM"
+    },
+    "saveForm": {
+        "formId": "",
+        "uniqueId": "",
+        "formName": "",
+        "parentType": {
+            "parentTypeId": 2,
+            "parentTypeText": "Standard Form",
+            "parentTypePrefix": "STD"
+        },
+        "description": "test description",
+        "isofflineRequired": 1,
+        "inheritFormType": 0,
+        "LinkedFormId": null,
+        "isPrivate": false,
+        "workflowData": null,
+        "isRevised": false,
+        "applicableTo": {
+            "applicableTo": [
+                {
+                    "id": 13,
+                    "label": "Internal Change Type"
+                },
+                {
+                    "id": 14,
+                    "label": "External Change Type"
+                },
+                {
+                    "id": 15,
+                    "label": "Standard Entity"
+                },
+                {
+                    "id": 16,
+                    "label": "Document Metadata"
+                },
+                {
+                    "id": 17,
+                    "label": "Risk Assessment Form"
+                },
+                {
+                    "id": 18,
+                    "label": "Execution Summary Report"
+                },
+                {
+                    "id": 19,
+                    "label": "Decision Tree"
+                },
+                {
+                    "id": 20,
+                    "label": "GxP Assessment Sections"
+                },
+                {
+                    "id": 21,
+                    "label": "Risk Assessment Sections"
+                },
+                {
+                    "id": 22,
+                    "label": "Validation Standard Assessment Sections"
+                },
+                {
+                    "id": 23,
+                    "label": "Schedule"
+                },
+                {
+                    "id": 24,
+                    "label": "Sub-category"
+                }
+            ]
+        },
+        "inheritForm": [],
+        "workflow": {
+            "workflowId": 108,
+            "workflowText": "RobotWorkFlow2",
+            "workflowReviewRequired": true,
+            "workflowNodes": [],
+            "workflowArrows": [],
+            "workflowConfig": {
+                "reviewerGroupConfig": [],
+                "approverGroupConfig": []
+            }
+        },
+        "jsonForm": {
+            "fields": [],
+            "conditions": []
+        },
+        "parentTypeId": 2,
+        "IsPrivate": false,
+        "workflowId": 108,
+        "jsonWorkflow": {
+            "nodes": [],
+            "arrows": [],
+            "groupConfig": {
+                "approverGroupConfig": [],
+                "reviewerGroupConfig": []
+            }
+        },
+        "isReviewRequired": true,
+        "routeTo": 0,
+        "entityTypeId": "FORM"
+    },
+    "cwCreateForm": {
+        "formId": 0,
+        "uniqueId": "",
+        "formName": "",
+        "parentType": {
+            "parentTypeId": 3,
+            "parentTypeText": "Project Form",
+            "parentTypePrefix": "PRT",
+            "parentTypeDisplayName": "Project Form - PRT"
+        },
+        "description": "",
+        "isofflineRequired": 1,
+        "inheritFormType": 0,
+        "LinkedFormId": 0,
+        "isPrivate": false,
+        "workflowData": null,
+        "isRevised": false,
+        "applicableTo": {
+            "applicableTo": []
+        },
+        "workflow": {
+            "workflowId": "",
+            "workflowText": "Engg WF",
+            "workflowReviewRequired": true,
+            "workflowNodes": [
+                {
+                    "direction": "serial",
+                    "frequency": null,
+                    "reviewOrApprovalPeriod": null,
+                    "functionalRole": null,
+                    "id": "start",
+                    "label": "START",
+                    "type": "start",
+                    "groupAndUsers": null,
+                    "selectedUsers": [],
+                    "x": 0,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                },
+                {
+                    "direction": "serial",
+                    "frequency": 1,
+                    "reviewOrApprovalPeriod": 3,
+                    "functionalRole": {
+                        "id": 41,
+                        "label": "Product Analyst"
+                    },
+                    "id": "reviewer",
+                    "label": "REVIEWER NAME",
+                    "type": "reviewer",
+                    "groupAndUsers": {
+                        "id": "129",
+                        "label": "Engg Grp",
+                        "children": [
+                            {
+                                "id": "129-46",
+                                "groupId": 0,
+                                "userId": 46,
+                                "uniqueUserId": "sathishd",
+                                "label": "Sathish D"
+                            },
+                            {
+                                "id": "129-293",
+                                "groupId": 0,
+                                "userId": 293,
+                                "uniqueUserId": "sr",
+                                "label": "Soundar Rajan"
+                            },
+                            {
+                                "id": "129-127",
+                                "groupId": 0,
+                                "userId": 127,
+                                "uniqueUserId": "varun.gunasekaran@valgenesis.com",
+                                "label": "Varun Gunasekaran"
+                            }
+                        ]
+                    },
+                    "selectedUsers": [
+                        "129",
+                        "129-46",
+                        "129-293",
+                        "129-127"
+                    ],
+                    "x": 150,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                },
+                {
+                    "direction": "serial",
+                    "frequency": null,
+                    "reviewOrApprovalPeriod": null,
+                    "functionalRole": null,
+                    "id": "end",
+                    "label": "END",
+                    "type": "end",
+                    "groupAndUsers": null,
+                    "selectedUsers": [],
+                    "x": 850,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                },
+                {
+                    "direction": "serial",
+                    "frequency": 1,
+                    "reviewOrApprovalPeriod": 3,
+                    "functionalRole": {
+                        "id": 41,
+                        "label": "Product Analyst"
+                    },
+                    "id": "node-0",
+                    "label": "REVIEWER NAME",
+                    "type": "approver",
+                    "groupAndUsers": {
+                        "id": "129",
+                        "label": "Engg Grp",
+                        "children": [
+                            {
+                                "id": "129-46",
+                                "groupId": 0,
+                                "userId": 46,
+                                "uniqueUserId": "sathishd",
+                                "label": "Sathish D"
+                            },
+                            {
+                                "id": "129-293",
+                                "groupId": 0,
+                                "userId": 293,
+                                "uniqueUserId": "sr",
+                                "label": "Soundar Rajan"
+                            },
+                            {
+                                "id": "129-127",
+                                "groupId": 0,
+                                "userId": 127,
+                                "uniqueUserId": "varun.gunasekaran@valgenesis.com",
+                                "label": "Varun Gunasekaran"
+                            }
+                        ]
+                    },
+                    "selectedUsers": [
+                        "129",
+                        "129-46",
+                        "129-293",
+                        "129-127"
+                    ],
+                    "x": 500,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                }
+            ],
+            "workflowArrows": [
+                {
+                    "to": "reviewer",
+                    "from": "start"
+                },
+                {
+                    "to": "node-0",
+                    "from": "reviewer"
+                },
+                {
+                    "to": "end",
+                    "from": "node-0"
+                }
+            ],
+            "workflowConfig": {
+                "reviewerGroupConfig": [
+                    {
+                        "id": 129,
+                        "label": "Engg Grp"
+                    }
+                ],
+                "approverGroupConfig": [
+                    {
+                        "id": 129,
+                        "label": "Engg Grp"
+                    }
+                ]
+            },
+            "wfConfigType": 2
+        },
+        "approvalRequired": true,
+        "isReviewRequired": true,
+        "workflowId": 190,
+        "workflowText": "",
+        "inheritForm": [],
+        "jsonForm": {
+            "pages": [
+                {
+                    "footer": null,
+                    "fields": [],
+                    "header": "initialEditorState"
+                }
+            ],
+            "guid": "fc9097d1",
+            "properties": {
+                "headerProperties": {
+                    "repeatOnEachPage": false
+                },
+                "footerProperties": {
+                    "repeatOnEachPage": false
+                }
+            }
+        },
+        "formStatus": 10,
+        "esignReason": "Route to review",
+        "parentTypeId": 3,
+        "IsPrivate": false,
+        "jsonWorkflow": {
+            "nodes": [
+                {
+                    "direction": "serial",
+                    "frequency": null,
+                    "reviewOrApprovalPeriod": null,
+                    "functionalRole": null,
+                    "id": "start",
+                    "label": "START",
+                    "type": "start",
+                    "groupAndUsers": null,
+                    "selectedUsers": [],
+                    "x": 0,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                },
+                {
+                    "direction": "serial",
+                    "frequency": 1,
+                    "reviewOrApprovalPeriod": 3,
+                    "functionalRole": {
+                        "id": 41,
+                        "label": "Product Analyst"
+                    },
+                    "id": "reviewer",
+                    "label": "REVIEWER NAME",
+                    "type": "reviewer",
+                    "groupAndUsers": {
+                        "id": "129",
+                        "label": "Engg Grp",
+                        "children": [
+                            {
+                                "id": "129-46",
+                                "groupId": 0,
+                                "userId": 46,
+                                "uniqueUserId": "sathishd",
+                                "label": "Sathish D"
+                            },
+                            {
+                                "id": "129-293",
+                                "groupId": 0,
+                                "userId": 293,
+                                "uniqueUserId": "sr",
+                                "label": "Soundar Rajan"
+                            },
+                            {
+                                "id": "129-127",
+                                "groupId": 0,
+                                "userId": 127,
+                                "uniqueUserId": "varun.gunasekaran@valgenesis.com",
+                                "label": "Varun Gunasekaran"
+                            }
+                        ]
+                    },
+                    "selectedUsers": [
+                        "129",
+                        "129-46",
+                        "129-293",
+                        "129-127"
+                    ],
+                    "x": 150,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                },
+                {
+                    "direction": "serial",
+                    "frequency": null,
+                    "reviewOrApprovalPeriod": null,
+                    "functionalRole": null,
+                    "id": "end",
+                    "label": "END",
+                    "type": "end",
+                    "groupAndUsers": null,
+                    "selectedUsers": [],
+                    "x": 850,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                },
+                {
+                    "direction": "serial",
+                    "frequency": 1,
+                    "reviewOrApprovalPeriod": 3,
+                    "functionalRole": {
+                        "id": 41,
+                        "label": "Product Analyst"
+                    },
+                    "id": "node-0",
+                    "label": "REVIEWER NAME",
+                    "type": "approver",
+                    "groupAndUsers": {
+                        "id": "129",
+                        "label": "Engg Grp",
+                        "children": [
+                            {
+                                "id": "129-46",
+                                "groupId": 0,
+                                "userId": 46,
+                                "uniqueUserId": "sathishd",
+                                "label": "Sathish D"
+                            },
+                            {
+                                "id": "129-293",
+                                "groupId": 0,
+                                "userId": 293,
+                                "uniqueUserId": "sr",
+                                "label": "Soundar Rajan"
+                            },
+                            {
+                                "id": "129-127",
+                                "groupId": 0,
+                                "userId": 127,
+                                "uniqueUserId": "varun.gunasekaran@valgenesis.com",
+                                "label": "Varun Gunasekaran"
+                            }
+                        ]
+                    },
+                    "selectedUsers": [
+                        "129",
+                        "129-46",
+                        "129-293",
+                        "129-127"
+                    ],
+                    "x": 500,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                }
+            ],
+            "arrows": [
+                {
+                    "to": "reviewer",
+                    "from": "start"
+                },
+                {
+                    "to": "node-0",
+                    "from": "reviewer"
+                },
+                {
+                    "to": "end",
+                    "from": "node-0"
+                }
+            ],
+            "groupConfig": {
+                "approverGroupConfig": [
+                    {
+                        "id": 129,
+                        "label": "Engg Grp",
+                        "children": [
+                            {
+                                "id": "129-46",
+                                "groupId": 129,
+                                "userId": 46,
+                                "uniqueUserId": "sathishd",
+                                "label": "Sathish D",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/41f02aac-b8f9-4fe8-b70b-964ea3d5f539.jpeg"
+                            },
+                            {
+                                "id": "129-225",
+                                "groupId": 129,
+                                "userId": 225,
+                                "uniqueUserId": "shivanivg",
+                                "label": "Shivani Anbu",
+                                "userProfileUrl": ""
+                            },
+                            {
+                                "id": "129-293",
+                                "groupId": 129,
+                                "userId": 293,
+                                "uniqueUserId": "sr",
+                                "label": "Soundar Rajan",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/10a1dc0d-735b-4369-9efd-aab172c58593.jpg"
+                            },
+                            {
+                                "id": "129-127",
+                                "groupId": 129,
+                                "userId": 127,
+                                "uniqueUserId": "varun.gunasekaran@valgenesis.com",
+                                "label": "Varun Gunasekaran",
+                                "userProfileUrl": ""
+                            }
+                        ]
+                    }
+                ],
+                "reviewerGroupConfig": [
+                    {
+                        "id": 129,
+                        "label": "Engg Grp",
+                        "children": [
+                            {
+                                "id": "129-46",
+                                "groupId": 129,
+                                "userId": 46,
+                                "uniqueUserId": "sathishd",
+                                "label": "Sathish D",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/41f02aac-b8f9-4fe8-b70b-964ea3d5f539.jpeg"
+                            },
+                            {
+                                "id": "129-225",
+                                "groupId": 129,
+                                "userId": 225,
+                                "uniqueUserId": "shivanivg",
+                                "label": "Shivani Anbu",
+                                "userProfileUrl": ""
+                            },
+                            {
+                                "id": "129-293",
+                                "groupId": 129,
+                                "userId": 293,
+                                "uniqueUserId": "sr",
+                                "label": "Soundar Rajan",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/10a1dc0d-735b-4369-9efd-aab172c58593.jpg"
+                            },
+                            {
+                                "id": "129-127",
+                                "groupId": 129,
+                                "userId": 127,
+                                "uniqueUserId": "varun.gunasekaran@valgenesis.com",
+                                "label": "Varun Gunasekaran",
+                                "userProfileUrl": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "routeTo": 1,
+        "comments": "",
+        "entityInstanceId": 0
+    },
+    "deactivateForm": {
+        "Id": 0,
+        "comments": "robot comment",
+        "esignReason": "test automation"
+    },
+    "updateWorkflow": {
+        "component": "FORM",
+        "instanceId": 0,
+        "workflowId": 0,
+        "workflowJson": {
+            "nodes": [
+                {
+                    "direction": "serial",
+                    "frequency": null,
+                    "reviewOrApprovalPeriod": null,
+                    "functionalRole": null,
+                    "id": "start",
+                    "label": "START",
+                    "type": "start",
+                    "groupAndUsers": null,
+                    "selectedUsers": [],
+                    "x": 0,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                },
+                {
+                    "direction": "serial",
+                    "frequency": 1,
+                    "reviewOrApprovalPeriod": 3,
+                    "functionalRole": {
+                        "id": 41,
+                        "label": "Product Analyst"
+                    },
+                    "id": "reviewer",
+                    "label": "REVIEWER NAME",
+                    "type": "reviewer",
+                    "groupAndUsers": {
+                        "id": "129",
+                        "label": "Engg Grp",
+                        "children": [
+                            {
+                                "id": "129-46",
+                                "groupId": 0,
+                                "userId": 46,
+                                "uniqueUserId": "sathishd",
+                                "label": "Sathish D"
+                            },
+                            {
+                                "id": "129-293",
+                                "groupId": 0,
+                                "userId": 293,
+                                "uniqueUserId": "sr",
+                                "label": "Soundar Rajan"
+                            },
+                            {
+                                "id": "129-127",
+                                "groupId": 0,
+                                "userId": 127,
+                                "uniqueUserId": "varun.gunasekaran@valgenesis.com",
+                                "label": "Varun Gunasekaran"
+                            }
+                        ]
+                    },
+                    "selectedUsers": [
+                        "129",
+                        "129-46",
+                        "129-293",
+                        "129-127"
+                    ],
+                    "x": 150,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                },
+                {
+                    "direction": "serial",
+                    "frequency": null,
+                    "reviewOrApprovalPeriod": null,
+                    "functionalRole": null,
+                    "id": "end",
+                    "label": "END",
+                    "type": "end",
+                    "groupAndUsers": null,
+                    "selectedUsers": [],
+                    "x": 850,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                },
+                {
+                    "direction": "serial",
+                    "frequency": 1,
+                    "reviewOrApprovalPeriod": 3,
+                    "functionalRole": {
+                        "id": 41,
+                        "label": "Product Analyst"
+                    },
+                    "id": "node-0",
+                    "label": "REVIEWER NAME",
+                    "type": "approver",
+                    "groupAndUsers": {
+                        "id": "129",
+                        "label": "Engg Grp",
+                        "children": [
+                            {
+                                "id": "129-46",
+                                "groupId": 0,
+                                "userId": 46,
+                                "uniqueUserId": "sathishd",
+                                "label": "Sathish D"
+                            },
+                            {
+                                "id": "129-293",
+                                "groupId": 0,
+                                "userId": 293,
+                                "uniqueUserId": "sr",
+                                "label": "Soundar Rajan"
+                            },
+                            {
+                                "id": "129-127",
+                                "groupId": 0,
+                                "userId": 127,
+                                "uniqueUserId": "varun.gunasekaran@valgenesis.com",
+                                "label": "Varun Gunasekaran"
+                            }
+                        ]
+                    },
+                    "selectedUsers": [
+                        "129",
+                        "129-46",
+                        "129-293",
+                        "129-127"
+                    ],
+                    "x": 500,
+                    "y": 0,
+                    "isAccepted": null,
+                    "isCompleted": null
+                }
+            ],
+            "arrows": [
+                {
+                    "to": "reviewer",
+                    "from": "start"
+                },
+                {
+                    "to": "node-0",
+                    "from": "reviewer"
+                },
+                {
+                    "to": "end",
+                    "from": "node-0"
+                }
+            ],
+            "groupConfig": {
+                "approverGroupConfig": [
+                    {
+                        "id": 129,
+                        "label": "Engg Grp",
+                        "children": [
+                            {
+                                "id": "129-46",
+                                "groupId": 129,
+                                "userId": 46,
+                                "uniqueUserId": "sathishd",
+                                "label": "Sathish D",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/41f02aac-b8f9-4fe8-b70b-964ea3d5f539.jpeg"
+                            },
+                            {
+                                "id": "129-225",
+                                "groupId": 129,
+                                "userId": 225,
+                                "uniqueUserId": "shivanivg",
+                                "label": "Shivani Anbu",
+                                "userProfileUrl": ""
+                            },
+                            {
+                                "id": "129-293",
+                                "groupId": 129,
+                                "userId": 293,
+                                "uniqueUserId": "sr",
+                                "label": "Soundar Rajan",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/10a1dc0d-735b-4369-9efd-aab172c58593.jpg"
+                            },
+                            {
+                                "id": "129-127",
+                                "groupId": 129,
+                                "userId": 127,
+                                "uniqueUserId": "varun.gunasekaran@valgenesis.com",
+                                "label": "Varun Gunasekaran",
+                                "userProfileUrl": ""
+                            }
+                        ]
+                    }
+                ],
+                "reviewerGroupConfig": [
+                    {
+                        "id": 129,
+                        "label": "Engg Grp",
+                        "children": [
+                            {
+                                "id": "129-46",
+                                "groupId": 129,
+                                "userId": 46,
+                                "uniqueUserId": "sathishd",
+                                "label": "Sathish D",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/41f02aac-b8f9-4fe8-b70b-964ea3d5f539.jpeg"
+                            },
+                            {
+                                "id": "129-225",
+                                "groupId": 129,
+                                "userId": 225,
+                                "uniqueUserId": "shivanivg",
+                                "label": "Shivani Anbu",
+                                "userProfileUrl": ""
+                            },
+                            {
+                                "id": "129-293",
+                                "groupId": 129,
+                                "userId": 293,
+                                "uniqueUserId": "sr",
+                                "label": "Soundar Rajan",
+                                "userProfileUrl": "https://stngptest.blob.core.windows.net/ngp-components/fileUpload/valgenesis/UserProfileImage/UserProfile/10a1dc0d-735b-4369-9efd-aab172c58593.jpg"
+                            },
+                            {
+                                "id": "129-127",
+                                "groupId": 129,
+                                "userId": 127,
+                                "uniqueUserId": "varun.gunasekaran@valgenesis.com",
+                                "label": "Varun Gunasekaran",
+                                "userProfileUrl": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "isReviewRequired": true,
+        "routeTo": 1,
+        "emailMetadata": {
+            "ComponentType": "FORM",
+            "ComponentName": "${formName}",
+            "ComponentUniqueId": "${uniqueId}"
+        }
+    },
+    "acceptForm": {
+        "instanceId":0,
+        "component": "FORM",
+        "nodeId":0,
+        "comments": "",
+        "commentsType": null,
+        "userType": 1,
+        "statusUpdateUrl": "components/form/api/v1/Form/createWorkflowUsers",
+        "moduleKey": "module_form",
+        "successMsg": "${uniqueId}-${formName}",
+        "emailMetadata": {
+            "ComponentType": "FORM",
+            "ComponentName": "${formName}",
+            "ComponentUniqueId": "${uniqueId}"
+        }
+    },
+    "draftForm":{
+        "formId": 0,
+        "uniqueId": "DS1_PRT_0108.1",
+        "formName": "Test43244311",
+        "parentType": {
+          "parentTypeId": 3,
+          "parentTypeText": "Project Form",
+          "parentTypePrefix": "PRT"
+        },
+        "description": "",
+        "isofflineRequired": 1,
+        "inheritFormType": 0,
+        "LinkedFormId": 0,
+        "isPrivate": false,
+        "workflowData": null,
+        "isRevised": false,
+        "applicableTo": {
+          "applicableTo": []
+        },
+        "workflow": null,
+        "approvalRequired": false,
+        "isReviewRequired": false,
+        "workflowText": "",
+        "jsonForm": {
+          "pages": [
+            {
+              "footer": null,
+              "fields": [],
+              "header": "initialEditorState"
+            }
+          ],
+          "guid": "21093f1a",
+          "properties": {
+            "headerProperties": {
+              "repeatOnEachPage": false
+            },
+            "footerProperties": {
+              "repeatOnEachPage": false
+            }
+          }
+        },
+        "parentTypeId": 3,
+        "IsPrivate": false,
+        "jsonWorkflow": {},
+        "routeTo": 0,
+        "entityTypeId": "FORM",
+        "entityInstanceId": 0,
+        "formStatus": 7
+      },
+      "getAllActiveForm": {
+        "form_forSpecificBusinessStructure": true,
+        "form_formType": "Standard+Form",
+        "form_applicableTo": "Standard+Entity"
+      }
+}

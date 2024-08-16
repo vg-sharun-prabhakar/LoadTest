@@ -1,0 +1,17 @@
+{
+  "CreateReason": {
+    "reasonName": "${reasonName}",
+    "reasonObjects": ["lbl_reason_object_general"],
+    "reasonTypeId": 1,
+    "reasonFunctionalRoles": []
+  },
+  "UpdateReason": {
+    "reasonName": "${reasonName}",
+    "object": "lbl_reason_object_general",
+    "reasonTypeId": 1,
+    "reasonFunctionalRoles": [],
+    "comments": "test ",
+    "reasonId": "${reasonId}"
+  },
+  "StatusChangePayload": { "id": "${reasonId}", "comments": "test Automation" }
+}

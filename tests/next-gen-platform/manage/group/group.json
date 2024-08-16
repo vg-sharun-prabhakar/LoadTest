@@ -1,0 +1,20 @@
+{
+  "CreateGroup": {
+    "groupName": "fEpnCuCzrMhhPvlOGwNo",
+    "description": "test automation",
+    "siteId": 308,
+    "groupTypeId": 1,
+    "groupUsers": [245]
+  },
+  "UpdateGroup": {
+    "groupId": "${groupId}",
+    "groupTypeId": "${groupTypeId}",
+    "groupType": "${groupType}",
+    "groupName": "${group_Name}",
+    "description": "test automation",
+    "comments": "test automation",
+    "groupStatusText": "ACTIVE",
+    "id": "${groupId}",
+    "groupUsers": "${users}"
+  }
+}
